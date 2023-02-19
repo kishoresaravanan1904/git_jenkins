@@ -1,0 +1,62 @@
+﻿<repository
+id="3cfc812f-21c9-401c-a5be-db73268ad88b"
+name="git_jenkinsRepository">
+	<codegen
+	classname="git_jenkinsRepository"
+	namespace="git_jenkins">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="78097179-a780-4911-8422-d30b16264115"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="128da318-9aeb-4bbc-9f57-07cc8498df12"
+		isrooted="True"
+		name="RxMainFrame"
+		refpath="/form[@automationid='RxMainFrame']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="f273fc3e-9801-4934-80a1-0890d27339d9"
+			name="EnterYourName"
+			refimgid="7edbd9f2-8128-4d5d-b8e5-d42555cb608a"
+			refpath="/form[@automationid='RxMainFrame']/tabpagelist/tabpage[@title='Introduction' and @automationid='RxTabIntroduction']/text[@automationid='txtUserName']/text[@accessiblename='Enter your name']"
+			robustPath="/form[@automationid='RxMainFrame']//text[@accessiblename='Enter your name']"
+			searchtimeout="30000ms">
+				/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
+			</item>
+			<item
+			addcaps="tabpage,control,nativewindow"
+			capname="tabpage"
+			id="0b2a0aa8-5258-4e19-9131-3f6fcd33cbae"
+			name="RxTabIntroduction"
+			refimgid="470ac3c4-9a1b-405e-b3ca-92815876ebc7"
+			refpath="/form[@automationid='RxMainFrame']/tabpagelist/tabpage[@title='Introduction' and @automationid='RxTabIntroduction']"
+			robustPath="/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabIntroduction']"
+			searchtimeout="30000ms">
+				/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabIntroduction']
+			</item>
+			<basepath>
+				/form[@automationid='RxMainFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB9SURBVDhPY0AGwcHBi4D4NxD/x4NB8r+DgoJa
+odogACj4BqQAyiUdwDQ/YBfa+oBN6CA+DNaADmAGAAlGIGbCh8Ea0AHIACD+B8RficFQbQgAFAQa
+TjwABuI3KBMCSDEgICBAeNSAUQOwGgACIEOAEt8JYaC6H0AaaAADAwC5s5VutWbaWgAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
