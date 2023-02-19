@@ -91,6 +91,10 @@ namespace git_jenkins
             repo.RxMainFrame.RxTabIntroduction.Click("348;178");
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxButtonExit' at 33;10.", repo.RxMainFrame.RxButtonExitInfo, new RecordItemIndex(3));
+            repo.RxMainFrame.RxButtonExit.Click("33;10");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data
